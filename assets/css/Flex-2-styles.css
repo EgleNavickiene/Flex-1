@@ -17,7 +17,7 @@ body {
 }
 
 .card-row {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,6 +35,7 @@ body {
 
 a {
   text-decoration: none;
+  color:rgb(39, 36, 36);
 }
 
 .card img {
@@ -45,7 +46,8 @@ a {
     display: flex; 
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding-right: 10px;
+
 }
 
 .card-description {
@@ -65,11 +67,16 @@ i {
   margin:20px;
   padding-top:10px;
   padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
   background-color: #ed3b58;
   color:white;
   text-decoration: none;
   font-weight:700;
   border-radius: 5px;
+}
+
+.button {
+  margin-bottom: 50px;
+  margin-top: 30px;
 }

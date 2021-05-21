@@ -15,7 +15,7 @@
       body {
           background-color: green;
       }
-      [class*=card] {
+      .card{
         width: 100%;
       }
   }

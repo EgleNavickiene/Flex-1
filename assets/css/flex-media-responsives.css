@@ -1,12 +1,21 @@
-@media (max-width: 575.98px) { 
-    /* Cia rasau tokius pat css selektorius kaip ir iprastai */
-    body {
-        background-color: green;
-    }
-}
 
-@media only screen and (max-width: 575.98px) {
+@media (min-width: 769px) and (max-width: 1400px) { 
     body {
-    background-color: green;
+        background-color: red;
     }
-}
+  }
+  
+  @media (min-width: 576px) and (max-width: 768px) { 
+    body {
+        background-color: yellow;
+    }
+  }
+  
+  @media (max-width: 575.98px) { 
+      body {
+          background-color: green;
+      }
+      [class*=card] {
+        width: 100%;
+      }
+  }
